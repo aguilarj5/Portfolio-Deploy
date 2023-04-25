@@ -1,0 +1,39 @@
+#header {   
+    display: inline-block;
+    width: 100%; 
+    background-color: #48A9A6;
+}
+
+#header nav {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 80px;
+    float: right;
+    width: 50%;
+}
+
+#header a {
+    color: #4281A4;
+}
+
+
+header h1 {
+    font-size: 50px;
+    float: left;
+    width: 25%;
+    color: #4281A4;
+  }
+  
+body {
+    background-color:#E4DFDA;
+    color: #4281A4;
+    font-family: Arial;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-height: 100%;
+  }
+
+#footer {
+    background-color: #48A9A6;
+}

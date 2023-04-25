@@ -1,7 +1,7 @@
 #header {   
     display: inline-block;
     width: 100%; 
-    background-color: black;
+    background-color: #48A9A6;
 }
 
 #header nav {
@@ -34,6 +34,22 @@ body {
     max-height: 100%;
   }
 
+img {
+    display: block;
+}
+
 #footer {
     background-color: #48A9A6;
+}
+
+#footer img {
+    display: inline-block;
+    max-width: 5%;
+}
+
+.card {
+    max-width: 25%;
+    max-height: 15%;
+    display: inline-block;
+    margin: 10px;
 }

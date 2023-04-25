@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# React Portfolio 4/24/2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This React App is deployed via Heroku and can/will be used as a live portfolio for myself or other future Full-Stack Web developers. This app is helpful as a starting point for developers to get familiar with the technologies (Heroku, React, and app deployment) and can also be used to demonstrate future employers a live portfolio of previous completed porjects.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+[Badges](#badges)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Visuals](#visuals)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Installation](#installation)
 
-### `npm test`
+[Usage](#usage)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Support](#support)
 
-### `npm run build`
+[Contribution](#contribution)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Authors](#authors)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[License](#license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a name="badges"/>
 
-### `npm run eject`
+## Badges
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+N/A
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a name="visuals"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Visuals
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A live demo of the portfolio can be found on the following link [here.](https://portfolio-deploy-ja.herokuapp.com/)
 
-## Learn More
+<a name="installation"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project can be cloned from my GitHub repo link found at the bottom of this project's README file. Once installed node, package.json files, npm, and Heroku CLI are required to run and/or deploy this application.
 
-### Code Splitting
+Once cloned a command of "node install" can be run in the terminal to install the necessary dependencies of this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<a name="usage"/>
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This portfolio serves as a template to build off of to create a sleek live portfolio that future employers can visit and get a sense of a developers abilities and understanding of coding concepts.
 
-### Making a Progressive Web App
+Once all necessary files are cloned and the package dependencies are installed, the user can run a command of "npm run start" in the terminal to run the React App locally on PORT 3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+From there the user can follow the steps in the Heroku No-Configuration Deployment to deploy to Heroku if the user so wishes to. The link to these steps will be below.
 
-### Advanced Configuration
+<a name="support"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Support
 
-### Deployment
+N/A
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<a name="contribution"/>
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The GitHub Repository can be found on the following this link [here.](https://github.com/aguilarj5/React-Portfolio.git)
+
+<a name="authors"/>
+
+## Authors and acknowledgment
+
+GitHub: aguilarj5
+
+Deploy to Heroku Info: https://blog.heroku.com/deploying-react-with-zero-configuration
+
+Node API: https://nodejs.org/api/n-api.html
+
+Heroku CLI API: https://devcenter.heroku.com/articles/heroku-cli
+
+<a name="license"/>
+
+## License
+
+N/A

@@ -38,9 +38,21 @@ export default function PortfolioContainer() {
 
 			<div id="body">{renderPage()}</div>
 
-			<footer id='footer'>
-				<i class="fab fa-linkedin">LinkedIn</i>
-				<i class="fab fa-github">GitHub</i>
+			<footer id="footer">
+				<a href="https://github.com/aguilarj5" target="_blank" rel="noopener noreferrer">
+					<img
+						src={require('./pages/img/git.PNG')}
+						class="card-img"
+						alt="project"
+					></img>
+				</a>
+				<a href="https://www.linkedin.com/in/jonathan-aguilar-226aa5143" target="_blank" rel="noopener noreferrer">
+					<img
+						src={require('./pages/img/LI.PNG')}
+						class="card-img"
+						alt="project"
+					></img>
+				</a>
 			</footer>
 		</body>
 	);

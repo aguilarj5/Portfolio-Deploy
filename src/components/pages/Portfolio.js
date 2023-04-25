@@ -2,16 +2,39 @@ import React from 'react';
 
 export default function Portfolio() {
 	return (
-		<div class="card bg-dark text-white">
-			<img src="" class="card-img" alt="..."></img>
-			<div class="card-img-overlay">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">
-					This is a wider card with supporting text below as a natural lead-in
-					to additional content. This content is a little bit longer.
-				</p>
-				<p class="card-text">Last updated 3 mins ago</p>
+		<>
+			<div class="card bg-dark text-white">
+				<a
+					href="https://jjsmith32199.github.io/UntitledGooseProject/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={require('./img/CinEvents_Watch_list.png')}
+						class="card-img"
+						alt="project"
+					></img>
+				</a>
+				<div class="card-img-overlay">
+					<h5 class="card-title">CinEvents</h5>
+				</div>
 			</div>
-		</div>
+			<div class="card bg-dark text-white">
+				<a
+					href="https://autumn-bird-7789.herokuapp.com/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={require('./img/proj2.PNG')}
+						class="card-img"
+						alt="project"
+					></img>
+				</a>
+				<div class="card-img-overlay">
+					<h5 class="card-title">BookEnds</h5>
+				</div>
+			</div>
+		</>
 	);
 }

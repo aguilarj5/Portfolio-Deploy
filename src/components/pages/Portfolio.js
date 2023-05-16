@@ -35,6 +35,22 @@ export default function Portfolio() {
 					<h5 class="card-title">BookEnds</h5>
 				</div>
 			</div>
+			<div class="card bg-dark text-white">
+				<a
+					href="https://tech-tickets.herokuapp.com/#Signup"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={require('./img/techtickets.JPG')}
+						class="card-img"
+						alt="project3"
+					></img>
+				</a>
+				<div class="card-img-overlay">
+					<h5 class="card-title">Tech Tickets</h5>
+				</div>
+			</div>
 		</>
 	);
 }
